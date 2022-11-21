@@ -1,7 +1,7 @@
-#create database learnCrud
+# Create Database
 create database learnCrud;
-#Create database
-create database user(
+# Create Table
+create table user(
   id int auto_increment,
   nama varchar(20),
   email varchar(20),
@@ -12,4 +12,3 @@ create database user(
   password varchar(20),
   primary key(id)
 );
-
